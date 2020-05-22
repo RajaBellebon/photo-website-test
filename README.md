@@ -9,3 +9,5 @@ The goal of this repository is to test your git actions and the way we will work
 5. Create a pull request from github interface and assign me as a reviewer.
 
 Good Luck!
+
+Thank you for all that you teach me!
