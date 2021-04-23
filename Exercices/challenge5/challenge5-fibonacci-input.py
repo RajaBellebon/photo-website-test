@@ -16,9 +16,8 @@ def suit_fibronacci(n):
             z=x+y
             x=y
             y=z
-        return y   
-a = int(input('Please enter a number')) 
+        return y           
+a = int(input('Please enter a number: ')) 
 print(suit_fibronacci(a))
 
-      
-
+suit_fibronacci(a)   

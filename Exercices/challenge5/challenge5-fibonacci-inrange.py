@@ -1,5 +1,5 @@
  
-
+###Enter the rank fo the number of Fibronacci list that you want generate
 
 def suit_fibronacci(n):
  
@@ -13,11 +13,23 @@ def suit_fibronacci(n):
             x=y
             y=z
         return y
-    for i in range (0,12):
+for i in range (1,12):
+    print(suit_fibronacci(i))
 
+suit_fibronacci(i)
 
-        
+####
 
+### With the recursive method
+def suit_fibonacci(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 1
+    elif n>2:
+        return suit_fibonacci(n-1) + suit_fibonacci(n-2)
 
+for n in range (1, 10):
+    print( n , ":", suit_fibonacci(n))
 
-
+    
