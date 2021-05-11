@@ -1,0 +1,9 @@
+# ignore editor generated files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.iml
+*.code-workspace
+
+# ignore OS generated files
+**/.DS_Store
