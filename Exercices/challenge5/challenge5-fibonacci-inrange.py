@@ -21,6 +21,7 @@ suit_fibronacci(i)
 ####
 
 ### With the recursive method
+
 def suit_fibonacci(n):
     if n == 1:
         return 1
@@ -28,8 +29,8 @@ def suit_fibonacci(n):
         return 1
     elif n>2:
         return suit_fibonacci(n-1) + suit_fibonacci(n-2)
+n = int(input('Please enter a number: ')) 
+for n in range(1, n):
+    print(n, ":", suit_fibonacci(n))
 
-for n in range (1, 10):
-    print( n , ":", suit_fibonacci(n))
-
-    
+suit_fibonacci(n)
